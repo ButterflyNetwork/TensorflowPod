@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TensorflowPod"
-  s.version      = "1.0.0"
+  s.version      = "1.0.0-bfly1"
   s.summary      = "Cocoapod based on Tensorflow (unofficial)"
-  s.homepage     = "https://github.com/rainbean/TensorflowPod"
+  s.homepage     = "https://github.com/ButterflyNetwork/TensorflowPod"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Jimmy Lee" => "Jimmy.m.Lee@gmail.com" }
+  s.author             = { "Butterfly Network Inc." => "sw@gbutterflynetinc.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source = { :http => "https://github.com/rainbean/TensorflowPod/releases/download/v#{s.version}/tensorflow.tar.gz" }
+  s.source = { :http => "https://github.com/ButterflyNetwork/TensorflowPod/releases/download/v#{s.version}/tensorflow.tar.gz" }
   s.preserve_paths = "include/**"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

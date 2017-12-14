@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TensorflowPod"
-  s.version      = "1.0.0-bfly1"
+  s.version      = "1.4.0"
   s.summary      = "Cocoapod based on Tensorflow (unofficial)"
   s.homepage     = "https://github.com/ButterflyNetwork/TensorflowPod"
 
@@ -66,7 +66,7 @@ Pod::Spec.new do |s|
   #
 
   s.ios.framework  = "Accelerate"
-  s.ios.vendored_libraries = "lib/libtensorflow-core.a", "lib/libprotobuf-lite.a", "lib/libprotobuf.a"
+  s.ios.vendored_libraries = "lib/libtensorflow-core.a", "lib/libprotobuf-lite.a", "lib/libprotobuf.a", "lib/libnsync.a"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -81,6 +81,7 @@ Pod::Spec.new do |s|
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/eigen",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/gen/proto",
+      "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/nsync/public",
     ],
     "OTHER_LDFLAGS" => "-force_load $(PODS_ROOT)/#{s.name}/lib/libtensorflow-core.a" 
   }

@@ -21,7 +21,7 @@
 * Clone TensorflowPod repository
     ```
     $ cd ~/Code
-    $ git clone https://github.com/rainbean/TensorflowPod
+    $ git clone https://github.com/ButterflyNetwork/TensorflowPod
     ```
 
 * Compile TensorFlow 
@@ -51,7 +51,7 @@
         use_frameworks!
 
         # Pods for DemoApp
-        pod 'TensorflowPod', :podspec => 'https://raw.githubusercontent.com/rainbean/TensorflowPod/master/TensorflowPod.podspec'
+        pod 'TensorflowPod', :podspec => 'https://raw.githubusercontent.com/ButterflyNetwork/TensorflowPod/master/TensorflowPod.podspec'
 
     end
     ```

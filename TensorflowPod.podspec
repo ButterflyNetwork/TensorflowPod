@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TensorflowPod"
-  s.version      = "1.4.1.b"
+  s.version      = "1.5.0"
   s.summary      = "Cocoapod based on Tensorflow (unofficial)"
   s.homepage     = "https://github.com/ButterflyNetwork/TensorflowPod"
 
@@ -74,7 +74,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.xcconfig = { 
+  s.xcconfig = {
     "HEADER_SEARCH_PATHS" => [
       "${PODS_ROOT}/#{s.name}/include",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/protobuf/src",
@@ -83,7 +83,7 @@ Pod::Spec.new do |s|
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/gen/proto",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/nsync/public",
     ],
-    "OTHER_LDFLAGS" => "-force_load $(PODS_ROOT)/#{s.name}/lib/libtensorflow-core.a" 
+    "OTHER_LDFLAGS" => "-force_load $(PODS_ROOT)/#{s.name}/lib/libtensorflow-core.a"
   }
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 

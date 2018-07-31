@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TensorflowPod"
-  s.version      = "1.8.0.d"
+  s.version      = "1.8.0.e"
   s.summary      = "Cocoapod based on Tensorflow (unofficial)"
   s.homepage     = "https://github.com/ButterflyNetwork/TensorflowPod"
 
@@ -48,7 +48,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :ios, "8.2"
+  s.platform     = :ios, "11.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
